@@ -198,6 +198,10 @@ module Spreedly
         raise "Could not stop auto renew for subscriber: result code #{result.code}."
       end
     end
+
+    def attributes
+      @data
+    end
     
   end
   
